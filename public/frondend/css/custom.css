@@ -1,0 +1,92 @@
+.navbar-light-blue{
+    background-color: lightskyblue;
+}
+.grad{
+    background-image: linear-gradient(to right,white,rgb(248, 178, 48),white);
+}
+.frontendlogo{
+    margin-top: 10px;
+    /* overflow: overlay; */
+    position: absolute;
+    margin-left: 85px;
+}
+.text-center{
+    text-align: center;
+}
+.text-middle{
+    align-items: center;
+}
+.page-header {
+    border-left: 6px solid rgb(255, 255, 255);
+    /* background-color: lightgrey; */
+  }
+  .welcome_left{
+    margin: 10px 0;
+    width: 100%;
+    padding: 10px;
+    box-shadow: 0 0 5px #777;
+    border-radius: 50% 20% 50% 20%;
+}
+.image-trans{
+    opacity: 0.5;
+}
+.over{
+    position: absolute;
+    
+}
+.h1{
+    border-bottom: 10px;
+    border-color: rgb(240, 0, 0);
+}
+.section_head{
+    position:absolute;
+    content: "";
+    width: 60px;
+    height: 2px;
+    bottom: -8px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgb(249, 165, 10);
+}
+.stud_main {
+    padding: 40px 0;
+    background-image: linear-gradient(to left,rgb(255, 255, 255),rgb(248, 230, 198),rgb(255, 255, 255));
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+    
+}
+.stud_main1 {
+    padding: 40px 0;
+    background-image: linear-gradient(to left,rgb(0, 0, 0),rgb(33 6 76),rgb(0, 0, 0));
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+    
+}
+.stud_main2 {
+    padding: 10px 0;
+    background-image: linear-gradient(to left,rgb(17, 1, 28),rgb(39, 3, 98),rgb(15, 2, 43));
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+    
+}
+a:hover {
+    opacity: 0.5px;
+    
+    
+  }
+.page_section {
+    padding: 5px;
+    background-image: linear-gradient(to left,rgb(255, 255, 255),rgb(25, 2, 61),rgb(255, 255, 255));
+    
+  }
+  .a_date {
+    position: absolute;
+    bottom: 148px;
+    background-color: #fecc00;
+    padding: 10px;
+    border-radius: 0 8px 8px 0;
+    font-weight: 500;
+}

@@ -1,0 +1,8 @@
+ALTER TABLE `booking` CHANGE `trash` `trash` VARCHAR(10) CHARACTER SET latin1 COLLATE latin1_swedish_ci NOT NULL DEFAULT '1';
+
+ALTER TABLE `booking` ADD `created_at` TIMESTAMP NOT NULL AFTER `trash`;
+
+ALTER TABLE `driver_docs` CHANGE `driver_licence_image` `driver_licence_image_front` TEXT CHARACTER SET latin1 COLLATE latin1_swedish_ci NOT NULL;
+ALTER TABLE `driver_docs` ADD `driver_licence_image_back` VARCHAR(300) NOT NULL AFTER `driver_licence_image_front`;
+
+ALTER TABLE `driver_vehicle` ADD `description` TEXT NOT NULL AFTER `vehicle_image`;

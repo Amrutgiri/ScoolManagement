@@ -1,0 +1,1 @@
+table table-hover m-0 table-centered dt-responsive nowrap w-100
